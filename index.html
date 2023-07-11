@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slimes RPG</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="./src/css/reset.css">
+<link rel="stylesheet" href="./src/css/estilos.css">
+<link rel="stylesheet" href="./src/css/responsivo.css">
+</head>
+
+<body>
+
+    <header class="cabecalho">
+        <img class="logo" src="./src/imagens/Nome da pagina.png" alt="logo slimes rpg">
+    </header>
+
+    <main class="selecao-de-personagens">
+
+        <section class="personagens">
+
+            <h1 class="titulo"> selecione um personagem </h1>
+
+            <ul class="lista-de-personagens">
+
+                <li class="personagem selecionado" id="guerreiro" data-name="Bobby" data-description="Ele é bem corajoso e valente, adora batalhar, pois seu hobby é derramar sangue, tirando isso ele é adoravel. ">
+                    <img src="./src/imagens/guerreiro.jpg" height="190px" width="120px" alt="guerreiro">
+                </li>
+
+                <li class="personagem" id="arqueiro" data-name="Jimy" data-description="Sua mira é impecavel, ninguém nunca o viu errar, isso porque suas flechas são mágicas e conectadas à seus pensamentos">
+                    <img src="./src/imagens/arqueiro.jpg" height="190px" width="120px" alt="arqueiro">
+                </li>
+
+                <li class="personagem" id="feiticeiro" data-name="Thomy" data-description="Ele tem muitas cartas na manga, sempre buscando mais e mais conhecimento, seu sonho desde criança é se tornar o feiticeiro mais forte do mundo">
+                    <img src="./src/imagens/feiticeiro.jpg" height="190px" width="120px" alt="feiticeiro">
+                </li>
+
+            </ul>
+
+        </section>
+
+        <section class="personagem-selecionado">
+            <img class=personagem-grande src="./src/imagens/guerreiro.png" 
+                alt="guerreiro">
+            <div class="informacoes-personagem">
+                <h2 class="nome-personagem" id="nome-personagem">Bobby</h2>
+                <p class="descricao-personagem" id="descricao-personagem">Ele é bem corajoso e valente, adora batalhar, pois seu hobby é derramar sangue, tirando isso ele é adoravel.
+                  </p>
+            </div>
+        </section>
+
+    </main>
+<script src="./src/js/index.js"></script>
+</body>
+
+</html>
