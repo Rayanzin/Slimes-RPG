@@ -31,10 +31,9 @@ body::before{
 }
 .selecao-de-personagens .lista-de-personagens{
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 30px;
-    justify-content: center;
-
 }
 .selecao-de-personagens .personagens{
     display: flex;
@@ -52,16 +51,13 @@ body::before{
     width: 100%;
     text-align: center;
 }
-
-.lista-de-personagens .personagens img{
-    width: 100%;
-    height: 100%;
+.selecionado{
+    height:190px;
+    width:120px;
 }
-
-.lista-de-personagens .personagem.selecionado{
+.selecionado:hover{
     box-shadow: 0px 0px 24px 5px aqua;
 }
-
 .personagem-selecionado{
     text-align: center;
     max-height: 500px;
